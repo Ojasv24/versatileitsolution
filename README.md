@@ -1,5 +1,9 @@
-# versatileitsolution
 
+# Versatileit Solution
+## APK
+[app-release.zip](https://github.com/Ojasv24/versatileitsolution/files/12027043/app-release.zip)
+
+## Task
 - Created a Flutter app that integrates with the provided webservice.
 - Implemented the functionality to check the running status of the app using the CheckAppRunningStatus API.
 - Enabled user login using the LoginMember API with the following credentials:
