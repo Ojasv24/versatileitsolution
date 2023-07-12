@@ -6,6 +6,7 @@
     - User ID: NB3338497 (Encoded: "TkIzMzM4NDk3")
     - Password: 191299 (Encoded: "MTkxMjk5")
     - User ID and Password are encrypted using Base64 encoding.
+- Displayed a snackbar if the entered User ID and Password are incorrect.
 - After successful login, the app opens the complete web panel within the app.
 - Integrated the web panel 
   - URL: www.novabizbusiness.com/Dashboard/MemberLogin.aspx?Auth=UserIdinEncryptedForm&AuthBy=PasswordinEncryptedForm&type=2.
