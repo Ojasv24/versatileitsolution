@@ -1,16 +1,12 @@
 # versatileitsolution
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Created a Flutter app that integrates with the provided webservice.
+- Implemented the functionality to check the running status of the app using the CheckAppRunningStatus API.
+- Enabled user login using the LoginMember API with the following credentials:
+    - User ID: NB3338497 (Encoded: "TkIzMzM4NDk3")
+    - Password: 191299 (Encoded: "MTkxMjk5")
+    - User ID and Password are encrypted using Base64 encoding.
+- After successful login, the app opens the complete web panel within the app.
+- Integrated the web panel 
+  - URL: www.novabizbusiness.com/Dashboard/MemberLogin.aspx?Auth=UserIdinEncryptedForm&AuthBy=PasswordinEncryptedForm&type=2.
+  - i.e : www.novabizbusiness.com/Dashboard/MemberLogin.aspx?Auth=TkIzMzM4NDk3&AuthBy=MTkxMjk5&type=2 (Encoded User ID and Password).
